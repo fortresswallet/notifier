@@ -3,7 +3,7 @@ package iso
 import "fmt"
 import (
 	"github.com/NaySoftware/go-fcm"
-	"github.com/Richardmbs12/Notifier/notifier"
+	"github.com/Richardmbs12/notifier/notifier"
 )
 
 type Notifier struct{

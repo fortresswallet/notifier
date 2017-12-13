@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/Richardmbs12/Notifier/notifier/iso"
-	"github.com/Richardmbs12/Notifier/notifier"
+	"github.com/Richardmbs12/notifier/notifier/iso"
+	"github.com/Richardmbs12/notifier/notifier"
 )
 
 func main() {
