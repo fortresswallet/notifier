@@ -1,9 +1,9 @@
-package iso
+package firebase
 
-import "fmt"
 import (
 	"github.com/NaySoftware/go-fcm"
-	"github.com/Richardmbs12/notifier/notifier"
+	"fmt"
+	"github.com/fortresswallet/notifier/messaging"
 )
 
 type Notifier struct{
@@ -11,7 +11,7 @@ type Notifier struct{
 }
 
 
-func (n *Notifier) Send(deviceId string, notification notifier.NotificationPayload, data map[string]string ){
+func (n *Notifier) Send(deviceId string, notification messaging.NotificationPayload, data map[string]string ){
 	c := fcm.NewFcmClient(n.ServerKey)
 
 	var notificationPayload = convert(notification)
@@ -29,7 +29,7 @@ func (n *Notifier) Send(deviceId string, notification notifier.NotificationPaylo
 	}
 }
 
-func convert(payload notifier.NotificationPayload) fcm.NotificationPayload {
+func convert(payload messaging.NotificationPayload) fcm.NotificationPayload {
 	return fcm.NotificationPayload{
 		Title: payload.Title,
 		Body: payload.Body,

@@ -1,4 +1,4 @@
-package notifier
+package messaging
 
 type Notifier interface {
 	Send(deviceId string,notification NotificationPayload, data map[string]string)
@@ -19,4 +19,3 @@ type NotificationPayload struct {
 	TitleLocArgs     string `json:"title_loc_args,omitempty"`
 	AndroidChannelID string `json:"android_channel_id,omitempty"`
 }
-
