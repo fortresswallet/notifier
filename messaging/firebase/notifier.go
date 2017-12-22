@@ -9,7 +9,7 @@ type Notifier struct {
 	ServerKey string
 }
 
-func (n *Notifier) SendBroadcast(request messaging.SendBroadCastRequest) error {
+func (n *Notifier) SendBroadcast(request messaging.SendBroadcastRequest) error {
 	c := fcm.NewFcmClient(n.ServerKey)
 
 	var notificationPayload = convert(request.Payload)

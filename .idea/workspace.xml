@@ -14,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="notifier.go" pinned="false" current-in-tab="false">
+      <file leaf-file-name="notifier.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/messaging/notifier.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+            <state relative-caret-position="60">
+              <caret line="4" column="46" lean-forward="false" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -34,12 +34,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="notifier.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="notifier.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/messaging/firebase/notifier.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-              <folding />
+            <state relative-caret-position="165">
+              <caret line="11" column="71" lean-forward="false" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="71" />
+              <folding>
+                <element signature="e#18#109#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,8 +74,8 @@
       <list>
         <option value="$PROJECT_DIR$/Notifier/notifier/iso/notifier.go" />
         <option value="$PROJECT_DIR$/messaging/firebase/notifier_test.go" />
-        <option value="$PROJECT_DIR$/messaging/notifier.go" />
         <option value="$PROJECT_DIR$/messaging/firebase/notifier.go" />
+        <option value="$PROJECT_DIR$/messaging/notifier.go" />
       </list>
     </option>
   </component>
@@ -228,18 +230,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/messaging/notifier.go">
+    <entry file="file://$PROJECT_DIR$/messaging/firebase/notifier.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="165">
+          <caret line="11" column="71" lean-forward="false" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="71" />
+          <folding>
+            <element signature="e#18#109#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/messaging/firebase/notifier.go">
+    <entry file="file://$PROJECT_DIR$/messaging/notifier.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        <state relative-caret-position="60">
+          <caret line="4" column="46" lean-forward="false" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
           <folding />
         </state>
       </provider>
