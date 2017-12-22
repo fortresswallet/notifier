@@ -1,7 +1,8 @@
 package messaging
 
 type Notifier interface {
-	Send(deviceId string,notification NotificationPayload, data map[string]string)
+	Send(deviceId string, notification NotificationPayload, data map[string]string) error
+	SendBroadcast(request SendBroadCastRequest) error
 }
 
 type NotificationPayload struct {
@@ -18,4 +19,10 @@ type NotificationPayload struct {
 	TitleLocKey      string `json:"title_loc_key,omitempty"`
 	TitleLocArgs     string `json:"title_loc_args,omitempty"`
 	AndroidChannelID string `json:"android_channel_id,omitempty"`
+}
+
+type SendBroadCastRequest struct {
+	List []string
+	Payload NotificationPayload
+	Data    map[string]string
 }

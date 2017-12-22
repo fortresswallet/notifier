@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f0108ce-e7a9-4aff-a286-e8f2f4170e56" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/messaging/firebase/notifier.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/messaging/firebase/notifier_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/messaging/notifier.go" />
-      <change beforePath="$PROJECT_DIR$/Notifier/.idea/Notifier.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Notifier/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Notifier/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Notifier/notifier/iso/notifier.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Notifier/notifier/notifier.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/messaging/firebase/notifier.go" afterPath="$PROJECT_DIR$/messaging/firebase/notifier.go" />
+      <change beforePath="$PROJECT_DIR$/messaging/notifier.go" afterPath="$PROJECT_DIR$/messaging/notifier.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,8 +17,18 @@
       <file leaf-file-name="notifier.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/messaging/notifier.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+            <state relative-caret-position="360">
+              <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contract.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../gitlab.com/andile/go/fortress/assembly/services/contract.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="141" column="21" lean-forward="false" selection-start-line="141" selection-start-column="21" selection-end-line="141" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -33,11 +37,9 @@
       <file leaf-file-name="notifier.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/messaging/firebase/notifier.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding>
-                <element signature="e#18#116#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="45">
+              <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -69,9 +71,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Notifier/notifier/iso/notifier.go" />
+        <option value="$PROJECT_DIR$/messaging/firebase/notifier_test.go" />
         <option value="$PROJECT_DIR$/messaging/notifier.go" />
         <option value="$PROJECT_DIR$/messaging/firebase/notifier.go" />
-        <option value="$PROJECT_DIR$/messaging/firebase/notifier_test.go" />
       </list>
     </option>
   </component>
@@ -210,21 +212,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../../gitlab.com/andile/go/fortress/assembly/services/contract.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="141" column="21" lean-forward="false" selection-start-line="141" selection-start-column="21" selection-end-line="141" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../NaySoftware/go-fcm/fcm.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="155" column="23" lean-forward="false" selection-start-line="155" selection-start-column="23" selection-end-line="155" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/messaging/notifier.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        <state relative-caret-position="360">
+          <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/messaging/firebase/notifier.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#18#116#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
